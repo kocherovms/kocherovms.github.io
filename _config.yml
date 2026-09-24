@@ -18,8 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: How are brains work
+title: Заметки проекта neurolab
+description: Как устроен наш мозг
 email: m@develorium.com
+url: https://kocherovms.github.io
 
 # Build settings
 theme: minima
