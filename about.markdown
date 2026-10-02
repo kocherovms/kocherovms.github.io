@@ -1,18 +1,21 @@
 ---
 layout: page
-title: About
+title: О блоге
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="/assets/kms.jpg" alt="Мое фото" style="float: right; margin-left: 20px; margin-bottom: 20px; width: 250px; border-radius: 8px;">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Меня зовут Михаил Кочеров.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Как устроен наш мозг, какие информационные процессы в нём протекают, какие цели он преследует, какую модель данных и какую алгебру он использует?**
+
+Эти вопросы привлекали меня ещё с конца 90-х, когда я только познакомился с компьютерами. Ответы позволят глубже понимать себя и окружающих, раскрыть свой потенциал на максимум. Создание автономных интеллектуальных самообучающихся агентов (роботов) тоже станет ближе.
+
+Конечно, сейчас можно взять какую-нибудь LLM и сделать на её основе робота или просто виртуального интеллектуального агента a-la OpenClaw. Но что тогда будет узнано? Ничего качественно нового. Это будет просто интеграционная задача по типу: прикрутили чёрный ящик, и он как-то работает. Я же хочу получить более тонкое, фундаментальное знание. Знание, которое можно потом воплотить в разных архитектурах, более гибких и энергоэффективных, чем современные LLM.
+
+Я начал проект `neurolab`, чтобы через ML/RL эксперименты приблизиться к ответам. Каждый эксперимент немного меняет мое внутреннее понимание, подобно тому, как это происходит внутри слоёв LLM трансфомеров.
+
+Код проекта и результаты исследований: [https://github.com/kocherovms/neurolab](https://github.com/kocherovms/neurolab)
 
 
-[jekyll-organization]: https://github.com/jekyll

@@ -1,0 +1,39 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <!-- Первая колонка: Контакты и ссылки -->
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          {%- if site.author -%}
+            <li class="p-name">{{ site.author | escape }}</li>
+          {%- endif -%}
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <!-- Вторая колонка: Соцсети -->
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <!-- Третья колонка: Описание -->
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+        <li lcass="p-name">{{ site.description | escape }}</li>
+	<li>
+          <!-- ДОБАВЛЕННАЯ СТРОКА: Ссылка на ваш GitHub проект -->
+            <a href="https://github.com/kocherovms/neurolab" target="_blank" rel="noopener">
+              https://github.com/kocherovms/neurolab
+            </a>
+        </li>
+      </div>
+    </div>
+
+  </div>
+</footer>

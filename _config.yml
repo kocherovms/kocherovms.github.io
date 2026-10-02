@@ -22,11 +22,16 @@ title: Заметки проекта neurolab
 description: Как устроен наш мозг
 email: m@develorium.com
 url: https://kocherovms.github.io
+author: "Михаил Кочеров"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  social_links:
+    github: kocherovms
 
 # Exclude from processing.
 # The following items will not be processed, by default.
